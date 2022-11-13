@@ -37,11 +37,10 @@ spec:
           name: web
           protocol: TCP
         securityContext:
-          allowPrivilegeEscalation: false
+          allowPrivilegeEscalation: true
           capabilities:
             add:
             - NET_BIND_SERVICE
             drop:
             - all
-          readOnlyRootFilesystem: true
       dnsPolicy: Default
