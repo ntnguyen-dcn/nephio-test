@@ -8,7 +8,7 @@ metadata: # kpt-merge: example/nginx
     internal.kpt.dev/upstream-identifier: '|Service|example|nginx'
   labels:
     package-instance: nginx
-  namespace: example
+  namespace: nginx
 spec:
   selector:
     package-instance: nginx
